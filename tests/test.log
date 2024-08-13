@@ -1,0 +1,177 @@
+2024-08-09 09:22:08,499 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 09:22:08,499 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 09:22:08,684 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 09:22:08,684 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 09:22:08,834 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 09:22:08,835 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 09:22:10,951 : INFO : Test: inventory_page_loaded
+2024-08-09 09:22:10,951 : INFO : Waiting for elements by locator: ('class name', 'inventory_item_name')
+2024-08-09 09:22:11,044 : INFO : Inventory page loaded successfully with products
+2024-08-09 09:22:50,197 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 09:22:50,197 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 09:22:50,367 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 09:22:50,368 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 09:22:50,526 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 09:22:50,526 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 09:23:38,936 : DEBUG : Selenium Manager binary found at: C:\Users\ArchanaSapkota\PycharmProjects\POMSauceDemoTestCaseAutomate\.venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+2024-08-09 09:23:38,936 : DEBUG : Executing process: C:\Users\ArchanaSapkota\PycharmProjects\POMSauceDemoTestCaseAutomate\.venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+2024-08-09 09:23:39,277 : DEBUG : chromedriver not found in PATH
+2024-08-09 09:23:39,277 : DEBUG : chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-08-09 09:23:39,277 : DEBUG : Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+2024-08-09 09:23:39,277 : DEBUG : Output: "\r\r\n\r\r\nVersion=127.0.6533.99\r\r\n\r\r\n\r\r\n\r"
+2024-08-09 09:23:39,277 : DEBUG : Detected browser: chrome 127.0.6533.99
+2024-08-09 09:23:39,277 : DEBUG : Required driver: chromedriver 127.0.6533.99
+2024-08-09 09:23:39,277 : DEBUG : chromedriver 127.0.6533.99 already in the cache
+2024-08-09 09:23:39,277 : DEBUG : Driver path: C:\Users\ArchanaSapkota\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-09 09:23:39,278 : DEBUG : Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2024-08-09 09:23:39,342 : DEBUG : Started executable: `C:\Users\ArchanaSapkota\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe` in a child process with pid: 17780 using 0 to output -3
+2024-08-09 09:23:39,865 : DEBUG : POST http://localhost:54920/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+2024-08-09 09:23:39,866 : DEBUG : Starting new HTTP connection (1): localhost:54920
+2024-08-09 09:23:40,927 : DEBUG : http://localhost:54920 "POST /session HTTP/11" 200 0
+2024-08-09 09:23:40,927 : DEBUG : Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"127.0.6533.99","chrome":{"chromedriverVersion":"127.0.6533.99 (f31af5097d90ef5ae5bd7b8700199bc6189ba34d-refs/branch-heads/6533@{#1910})","userDataDir":"C:\\Users\\ARCHAN~1\\AppData\\Local\\Temp\\scoped_dir17780_125199058"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54923"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"b337ab06023b0e1e7f91525ef2cfb241"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:40,927 : DEBUG : Finished Request
+2024-08-09 09:23:40,927 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/window/maximize {}
+2024-08-09 09:23:40,973 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/window/maximize HTTP/11" 200 0
+2024-08-09 09:23:40,973 : DEBUG : Remote response: status=200 | data={"value":{"height":688,"width":1296,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:40,973 : DEBUG : Finished Request
+2024-08-09 09:23:40,973 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/url {'url': 'https://www.saucedemo.com/'}
+2024-08-09 09:23:41,945 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/url HTTP/11" 200 0
+2024-08-09 09:23:41,945 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:41,945 : DEBUG : Finished Request
+2024-08-09 09:23:41,945 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 09:23:41,945 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 09:23:41,945 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element {'using': 'css selector', 'value': '[id="user-name"]'}
+2024-08-09 09:23:41,965 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element HTTP/11" 200 0
+2024-08-09 09:23:41,966 : DEBUG : Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:41,966 : DEBUG : Finished Request
+2024-08-09 09:23:41,967 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync {'script': '/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': 'f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3'}]}
+2024-08-09 09:23:41,984 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync HTTP/11" 200 0
+2024-08-09 09:23:41,984 : DEBUG : Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:41,984 : DEBUG : Finished Request
+2024-08-09 09:23:41,984 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3/clear {}
+2024-08-09 09:23:42,037 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3/clear HTTP/11" 200 0
+2024-08-09 09:23:42,037 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,037 : DEBUG : Finished Request
+2024-08-09 09:23:42,037 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3/value {'text': 'standard_user', 'value': ['s', 't', 'a', 'n', 'd', 'a', 'r', 'd', '_', 'u', 's', 'e', 'r']}
+2024-08-09 09:23:42,135 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.3/value HTTP/11" 200 0
+2024-08-09 09:23:42,135 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,135 : DEBUG : Finished Request
+2024-08-09 09:23:42,135 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 09:23:42,135 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 09:23:42,135 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element {'using': 'css selector', 'value': '[id="password"]'}
+2024-08-09 09:23:42,152 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element HTTP/11" 200 0
+2024-08-09 09:23:42,152 : DEBUG : Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,153 : DEBUG : Finished Request
+2024-08-09 09:23:42,153 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync {'script': '/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': 'f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5'}]}
+2024-08-09 09:23:42,167 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync HTTP/11" 200 0
+2024-08-09 09:23:42,168 : DEBUG : Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,168 : DEBUG : Finished Request
+2024-08-09 09:23:42,168 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5/clear {}
+2024-08-09 09:23:42,203 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5/clear HTTP/11" 200 0
+2024-08-09 09:23:42,203 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,203 : DEBUG : Finished Request
+2024-08-09 09:23:42,203 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5/value {'text': 'secret_sauce', 'value': ['s', 'e', 'c', 'r', 'e', 't', '_', 's', 'a', 'u', 'c', 'e']}
+2024-08-09 09:23:42,301 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.5/value HTTP/11" 200 0
+2024-08-09 09:23:42,301 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,301 : DEBUG : Finished Request
+2024-08-09 09:23:42,301 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 09:23:42,301 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 09:23:42,301 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element {'using': 'css selector', 'value': '[id="login-button"]'}
+2024-08-09 09:23:42,318 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element HTTP/11" 200 0
+2024-08-09 09:23:42,318 : DEBUG : Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.2"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,318 : DEBUG : Finished Request
+2024-08-09 09:23:42,319 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync {'script': '/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': 'f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.2'}]}
+2024-08-09 09:23:42,333 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/execute/sync HTTP/11" 200 0
+2024-08-09 09:23:42,334 : DEBUG : Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,334 : DEBUG : Finished Request
+2024-08-09 09:23:42,334 : DEBUG : POST http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.2/click {}
+2024-08-09 09:23:42,467 : DEBUG : http://localhost:54920 "POST /session/b337ab06023b0e1e7f91525ef2cfb241/element/f.A41E6E4ACCE63290B4793F2E1DE042D9.d.5A1F7D859748192221A9771ECABF9948.e.2/click HTTP/11" 200 0
+2024-08-09 09:23:42,467 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:42,467 : DEBUG : Finished Request
+2024-08-09 09:23:44,469 : DEBUG : Test: hover_over_product
+2024-08-09 09:23:44,657 : DEBUG : DELETE http://localhost:54920/session/b337ab06023b0e1e7f91525ef2cfb241 {}
+2024-08-09 09:23:44,758 : DEBUG : http://localhost:54920 "DELETE /session/b337ab06023b0e1e7f91525ef2cfb241 HTTP/11" 200 0
+2024-08-09 09:23:44,759 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-08-09 09:23:44,759 : DEBUG : Finished Request
+2024-08-09 10:19:02,642 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 10:19:02,643 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 10:19:02,880 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 10:19:02,880 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 10:19:03,024 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 10:19:03,024 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 10:19:05,189 : INFO : Clicking element by locator: ('id', 'shopping_cart_container')
+2024-08-09 10:19:05,189 : INFO : Waiting for element by locator: ('id', 'shopping_cart_container')
+2024-08-09 10:21:07,417 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 10:21:07,419 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 10:21:07,625 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 10:21:07,625 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 10:21:07,814 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 10:21:07,814 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 10:21:10,021 : CRITICAL : Test: Go_to_Cart page
+2024-08-09 10:21:10,021 : INFO : Clicking element by locator: ('id', 'shopping_cart_container')
+2024-08-09 10:21:10,022 : INFO : Waiting for element by locator: ('id', 'shopping_cart_container')
+2024-08-09 10:23:34,540 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 10:23:34,541 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 10:23:34,743 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 10:23:34,743 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 10:23:34,896 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 10:23:34,896 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 10:23:37,073 : INFO : Waiting for elements by locator: ('class name', 'inventory_item_name')
+2024-08-09 10:23:37,095 : INFO : Hover succeed.
+2024-08-09 10:23:37,095 : INFO : Getting action chains
+2024-08-09 11:21:30,443 : INFO : Test: inventory_page_loaded
+2024-08-09 11:22:00,712 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 11:22:00,712 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 11:22:00,918 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 11:22:00,918 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 11:22:01,079 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 11:22:01,079 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 11:22:03,216 : INFO : Test: inventory_page_loaded
+2024-08-09 11:22:03,216 : INFO : Waiting for elements by locator: ('class name', 'inventory_item_name')
+2024-08-09 11:22:03,303 : INFO : Inventory page loaded successfully with products
+2024-08-09 11:32:18,193 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 11:32:18,194 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 11:32:18,452 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 11:32:18,453 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 11:32:18,651 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 11:32:18,652 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 11:32:20,813 : INFO : Clicking element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 11:32:20,813 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 11:32:20,939 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Remove']")
+2024-08-09 12:16:47,348 : INFO : Test: inventory_page_loaded
+2024-08-09 12:46:52,465 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 12:46:52,466 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 12:46:52,624 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 12:46:52,624 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 12:46:52,718 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 12:46:52,718 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 12:46:54,822 : INFO : Clicking element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 12:46:54,822 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 12:46:54,873 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Remove']")
+2024-08-09 12:48:53,795 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 12:48:53,796 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 12:48:53,908 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 12:48:53,908 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 12:48:53,993 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 12:48:53,993 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 12:48:56,081 : INFO : Clicking element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 12:48:56,081 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Add to cart']")
+2024-08-09 12:48:56,134 : INFO : Waiting for element by locator: ('xpath', "//button[text()='Remove']")
+2024-08-09 12:54:57,779 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 12:54:57,779 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 12:54:57,909 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 12:54:57,909 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 12:54:58,004 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 12:54:58,004 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 12:54:58,095 : INFO : Test: inventory_page_loaded
+2024-08-09 12:54:58,095 : INFO : Waiting for elements by locator: ('class name', 'inventory_item_name')
+2024-08-09 12:54:58,162 : INFO : Inventory page loaded successfully with products
+2024-08-09 12:55:23,072 : INFO : Entering text 'standard_user' in element by locator: ('id', 'user-name')
+2024-08-09 12:55:23,072 : INFO : Waiting for element by locator: ('id', 'user-name')
+2024-08-09 12:55:23,194 : INFO : Entering text 'secret_sauce' in element by locator: ('id', 'password')
+2024-08-09 12:55:23,194 : INFO : Waiting for element by locator: ('id', 'password')
+2024-08-09 12:55:23,279 : INFO : Clicking element by locator: ('id', 'login-button')
+2024-08-09 12:55:23,279 : INFO : Waiting for element by locator: ('id', 'login-button')
+2024-08-09 12:55:23,370 : INFO : Test: inventory_page_loaded
+2024-08-09 12:55:23,370 : INFO : Waiting for elements by locator: ('class name', 'inventory_item_name')
+2024-08-09 12:55:23,437 : INFO : Inventory page loaded successfully with products
