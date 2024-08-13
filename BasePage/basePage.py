@@ -10,6 +10,7 @@ class BasePage:
     def __init__(self, driver):
         self.driver = driver
 
+# This function waits for element
     def wait_for_element(self, by_locator):
         logger.info(f"Waiting for element by locator: {by_locator}")
         return WebDriverWait(self.driver, 50).until(EC.visibility_of_element_located(by_locator))
